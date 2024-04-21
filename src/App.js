@@ -16,9 +16,13 @@ function App() {
           rel="noopener noreferrer"
         >
 
-          Learn React
+          Learn Reactrewrwerr
         </a>
+<<<<<<< Updated upstream
       
+=======
+        3rr434343
+>>>>>>> Stashed changes
       </header>
     </div>
   );
