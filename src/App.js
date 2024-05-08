@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-// import './App.css';
+import logo from "./logo.svg";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div>
-    <h3 className='text-danger rounded bg-primary'>fjdsiojfisjo</h3>
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 }
 
