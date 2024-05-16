@@ -21,10 +21,33 @@ function CollapsibleExample() {
           id="responsive-navbar-nav"
         >
           <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
+            <div class="group_btn d-flex justify-content-between align-items-center ">
+              {/* <Nav.Link id="btn_mode" href="#deets" className="btn rounded-0 d-non">
+                <span class="Dark">Switch to Dark Mode</span>
+                <span class="Light">Switch to Light Mode</span>
+              </Nav.Link> */}
+
+              <Nav.Link id="login_btn" className="btn" href="#memes">
+                <div class="login"></div>
+                <span>Log In</span>
+              </Nav.Link>
+
+              <Nav.Link id="signup3" className="btn d-non" href="#memes">
+                <div class="signup "></div>
+                <span>Sign Up</span>
+              </Nav.Link>
+              {/* <div id="unlock_btn" class="btn" onclick="javascript:abrirmodal('modal_share');"> */}
+              <div href="#" id="Remove-btn" class="btn">
+                <div class="remove d-non"></div>
+                <span>Remove Watermark</span>
+              </div>
+              <div id="download" class="download_btn btn">
+                <div class="download"></div>{" "}
+                <span>
+                  Download <span class="d-non">Carousel</span>
+                </span>
+              </div>
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Container>
