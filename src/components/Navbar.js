@@ -1,22 +1,23 @@
-import Container from 'react-bootstrap/Container';
-import{ Img} from 'react-bootstrap';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import Container from "react-bootstrap/Container";
+// import{ Img} from 'react-bootstrap';
+import { NavDropdown, Navbar, Nav, Image } from "react-bootstrap";
+// import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function CollapsibleExample() {
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container fluid>
         <Navbar.Brand href="#home">
-            <div class="logo d-flex justify-content-between">
-                <Img src="assets/image/logo.svg"/>
-                <div class="d-flex align-items-end flex-column d-non">
-                    <span class="title1">aiCarousels</span>
-                    <span class="logo-text title2 fw-600">.com</span>
-                </div>
+          <div class="logo d-flex justify-content-between">
+            <Image src="assets/image/logo.svg" />
+            <div class="d-flex align-items-end flex-column d-non">
+              <span class="title1">aiCarousels</span>
+              <span class="logo-text title2 fw-600">.com</span>
             </div>
-            </Navbar.Brand>
+          </div>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
