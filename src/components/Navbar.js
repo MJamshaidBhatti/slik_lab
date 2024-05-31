@@ -1,5 +1,5 @@
 import Container from "react-bootstrap/Container";
-import { NavDropdown, Navbar, Nav, Image } from "react-bootstrap";
+import { Navbar, Nav, Image } from "react-bootstrap";
 import logo from "../assets/image/logo.svg";
 
 function CollapsibleExample() {
