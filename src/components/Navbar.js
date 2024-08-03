@@ -1,6 +1,9 @@
 import Container from "react-bootstrap/Container";
 import { Navbar, Nav, Image } from "react-bootstrap";
 import logo from "../assets/image/logo.svg";
+import Icon from "../core/Icon";
+
+
 
 function CollapsibleExample() {
   return (
@@ -45,6 +48,7 @@ function CollapsibleExample() {
                 <div class="download"></div>{" "}
                 <span>
                   Download <span class="d-non">Carousel</span>
+                 
                 </span>
               </div>
             </div>

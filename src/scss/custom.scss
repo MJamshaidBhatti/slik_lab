@@ -1,13 +1,16 @@
 
 // Layout & components
 @import "./core/navbar";
-
 @import "./core/reset";
+@import "./core/banner";
+
+:root {
+  --swiper-navigation-size: 18px !important;
+}
 
 
-
-
-$primary: #189b07;
+$primary: #7F56D9;
+$secondary:#efe5fd;
 $danger: #b3521b;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
