@@ -1,18 +1,16 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import Icon from "../core/Icon";
 
-function Download() {
+function DownloadButton({ title, subtitle, icon, primary }) {
   return (
     <>
-      <div id="download" class="download_btn btn">
-        <div class="download"></div>
-        <span>
-          Download <span class="d-non">Carousel</span>
-        </span>
-      </div>
-      <Button variant="primary">Hello World</Button>
+      <Button variant={primary} className=" d-flex align-items-center">
+        <Icon icon={icon} w="0.846rem" h="0.846rem" className="me-1" />
+        {title}&nbsp;<span class="d-non"> {subtitle}</span>
+      </Button>
     </>
   );
 }
 
-export default Download;
+export default DownloadButton;

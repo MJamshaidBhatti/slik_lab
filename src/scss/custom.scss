@@ -1,26 +1,17 @@
-
 // Layout & components
 @import "./core/navbar";
 @import "./core/reset";
 @import "./core/banner";
 
-:root {
-  --swiper-navigation-size: 18px !important;
-}
-
-
-$primary: #7F56D9;
-$secondary:#efe5fd;
+$primary: #7f56d9;
+$secondary: #efe5fd;
 $danger: #b3521b;
+$white: white;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
-
-
-
-$border-radius:   1rem !default;
+$border-radius: 1rem !default;
 $theme-colors: (
   "primary": $primary,
   "danger": $danger,
-
 );

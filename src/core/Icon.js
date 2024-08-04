@@ -1,12 +1,12 @@
 import React from "react";
 import Figure from "react-bootstrap/Figure";
 
-function IconBox({ icon, className, w, h }) {
+function IconBox({ icon, className = "", w, h }) {
   return (
-    <Figure>
+    <Figure className="m-0">
       <Figure.Image
-        style={{ width: `${w}px`, height: `${h}px` }}
-        className={className}
+        style={{ width: `${w}`, height: `${h}` }}
+        className={`m-0 ${className}`}
         alt="Icon"
         src={icon}
       />
