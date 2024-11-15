@@ -1,3 +1,15 @@
+// import React from "react";
+// import BannerCarousl from "../Layout"
+
+// function ScreenShotLayout() {
+//   return (
+//     <>
+//       {/* <BannerCarousl /> */}
+//     </>
+//   );
+// }
+
+// export default ScreenShotLayout;
 import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";

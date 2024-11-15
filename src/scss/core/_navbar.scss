@@ -9,6 +9,12 @@
   position: absolute;
   top: 40.64px;
 }
+.bg-body-tertiary {
+  --bs-bg-opacity: 0 !important;
+  background-color: transparent !important;
+  border-bottom: 0.1rem solid #efe5fd;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+}
 /*=============================
  button commmen css in witch 
 ===============================*/

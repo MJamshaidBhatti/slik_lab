@@ -1,12 +1,12 @@
 
 import Navbar from "./components/Navbar";
-import BannerCarousl from "./components/BannerCarousl"
+import Layout from "./components/Layout";
 
 function App() {
   return (
     <>
       <Navbar />
-      {/* <BannerCarousl/> */}
+      <Layout />
     </>
   );
 }
