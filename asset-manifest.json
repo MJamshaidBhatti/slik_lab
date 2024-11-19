@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/slik_lab/static/css/main.02b7d27a.css",
+    "main.js": "/slik_lab/static/js/main.3e4ca677.js",
+    "static/js/453.1e4864ba.chunk.js": "/slik_lab/static/js/453.1e4864ba.chunk.js",
+    "static/media/logo.svg": "/slik_lab/static/media/logo.dcb0331355cc43e8f10583a0031f8c28.svg",
+    "index.html": "/slik_lab/index.html",
+    "main.02b7d27a.css.map": "/slik_lab/static/css/main.02b7d27a.css.map",
+    "main.3e4ca677.js.map": "/slik_lab/static/js/main.3e4ca677.js.map",
+    "453.1e4864ba.chunk.js.map": "/slik_lab/static/js/453.1e4864ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02b7d27a.css",
+    "static/js/main.3e4ca677.js"
+  ]
+}
